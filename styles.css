@@ -39,3 +39,27 @@ div.home-search div.container span {
 div.home-search div.container input {
 	margin-top: 25px;
 }
+div.topics {
+	background-color: #e1e5ea;
+}
+div.topics div.container div.row {
+	padding: 1rem;
+}
+div.topics div.container div.row div.col {
+	background-color: #fff;
+	padding: 2% 5%;
+	text-align: center;
+}
+div.topics div.container div.row div.col:not(.first-child):not(.last-child) {
+	margin: 1rem;
+}
+div.topics div.container div.row div.col span.topic {
+	text-transform: uppercase;
+	font-size: 1rem;
+}
+div.topics div.container div.row div.col img {
+	max-width: 100px;
+	height: auto;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
